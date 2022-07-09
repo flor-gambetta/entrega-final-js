@@ -1,0 +1,23 @@
+.fc-col-header-cell-cushion, .fc-daygrid-day-number {
+    color: #000;
+}
+
+.weather {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contenedor {
+        h2, p {
+            text-align: center;
+        }
+        img {
+          width: 100px;
+          display: block;
+          margin: 0 auto;
+        }   
+    }
+}

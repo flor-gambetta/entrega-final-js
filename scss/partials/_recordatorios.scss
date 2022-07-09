@@ -1,0 +1,84 @@
+h1{
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+}
+
+.containerRec{
+    display: flex;
+    margin-left: 6rem;
+
+    .inputRec{
+        width: 50%;
+        display: flex; 
+        flex-direction: column; 
+        padding: 1rem;
+        border-color: rgba(116, 117, 117, 0.678);
+        border-style: solid;
+    
+        #titulo{
+            border: 0ch;
+            font-weight: bold;
+            background-color: #eee;
+            padding: 0.3rem;
+        }
+        
+        #descripcion{
+            border: 0ch;
+            border: 1px solid #b1b1b1;
+        }
+    
+        #fecha{
+            border: 0ch;
+            width: 25%;
+            font-weight: lighter;
+        }
+    
+        #agregar{
+            width: 25%;
+            font-size: small;
+        }
+    
+        gap: 0.5rem; 
+        margin-bottom: 2rem;
+    }
+}
+
+
+#todoList{
+
+    li{
+        background-color: rgba(170, 170, 170, 0.199);
+        display: flex;
+        margin-left: 4rem;
+        margin-bottom: 1rem;
+        align-items: center;
+        width: 48%;
+        .datos {
+            width: 90%;
+            padding: 1rem 2rem;
+            .titulo {
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+        }
+        .checkBtn {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 2rem;
+        }
+        
+    }
+
+    .h2{
+        font-weight: bold;
+    }
+    .checked {
+        background-color: rgba(110, 150, 138, 0.288);
+        .checkbox {
+            background-color: rgba(79, 146, 120, 0.596)!important;
+        }
+    }
+}
+

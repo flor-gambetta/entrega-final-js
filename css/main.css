@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+h1 {
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-bottom: 1rem;
+  font-size: x-large;
+}
+
+.containerRec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6rem;
+}
+
+.containerRec .inputRec {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  border-color: rgba(116, 117, 117, 0.678);
+  border-style: solid;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.containerRec .inputRec #titulo {
+  border: 0ch;
+  font-weight: bold;
+  background-color: #eee;
+  padding: 0.3rem;
+}
+
+.containerRec .inputRec #descripcion {
+  border: 0ch;
+  border: 1px solid #b1b1b1;
+}
+
+.containerRec .inputRec #fecha {
+  border: 0ch;
+  width: 25%;
+  font-weight: lighter;
+}
+
+.containerRec .inputRec #agregar {
+  width: 25%;
+  font-size: small;
+}
+
+#todoList li {
+  background-color: rgba(170, 170, 170, 0.199);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 48%;
+}
+
+#todoList li .datos {
+  width: 90%;
+  padding: 1rem 2rem;
+}
+
+#todoList li .datos .titulo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#todoList li .checkBtn {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 2rem;
+}
+
+#todoList .h2 {
+  font-weight: bold;
+}
+
+#todoList .checked {
+  background-color: rgba(110, 150, 138, 0.288);
+}
+
+#todoList .checked .checkbox {
+  background-color: rgba(79, 146, 120, 0.596) !important;
+}
+
+.fc-col-header-cell-cushion, .fc-daygrid-day-number {
+  color: #000;
+}
+
+.weather {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: auto;
+  background-color: #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather .contenedor h2, .weather .contenedor p {
+  text-align: center;
+}
+
+.weather .contenedor img {
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
